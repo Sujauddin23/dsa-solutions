@@ -16,7 +16,7 @@ public class Rotation {
             System.out.print(val+" ");
         }
     }
-    static void rotation(int arr[], int k){
+    static void rotation(int[] arr, int k){
         int m=arr.length;
         k=k%m;
         if(k<0){
