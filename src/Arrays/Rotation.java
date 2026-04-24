@@ -29,7 +29,7 @@ public class Rotation {
         reverse(arr,0,k-1);
         reverse(arr,k,m-1);
     }
-    static void reverse(int arr[],int start, int end ){
+    static void reverse(int[] arr, int start, int end ){
 
         while(start<end){
             int temp=arr[start];
